@@ -1,0 +1,60 @@
+{
+    "name": "tutorial-storybook-vue",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "storybook": "start-storybook -p 6006 -s public",
+        "build-storybook": "build-storybook -c .storybook -s public -o storybook-static",
+        "eyes-storybook": "eyes-storybook"
+    },
+    "dependencies": {
+        "vue": "^2.5.17",
+        "vuex": "^3.1.1"
+    },
+    "devDependencies": {
+        "@applitools/eyes-storybook": "^2.6.18",
+        "@babel/core": "^7.1.2",
+        "@storybook/addon-actions": "^4.0.0-alpha.24",
+        "@storybook/addon-links": "^4.0.0-alpha.24",
+        "@storybook/addons": "^4.0.0-alpha.24",
+        "@storybook/vue": "^4.0.0-alpha.24",
+        "@vue/cli-plugin-babel": "^3.7.0",
+        "@vue/cli-plugin-eslint": "^3.0.5",
+        "@vue/cli-service": "^3.7.0",
+        "babel-loader": "^8.0.4",
+        "babel-preset-vue": "^2.0.2",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
+    "bit": {
+        "env": {},
+        "componentsDefaultDirectory": "components/{name}",
+        "packageManager": "npm"
+    }
+}
