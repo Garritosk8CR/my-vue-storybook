@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
-    <inbox-screen />
-  </div>
+  <v-app id="inspire">  
+    <v-content class="grey lighten-4">
+      <inbox-screen />
+    </v-content>
+  </v-app>
 </template>
 
 <script>

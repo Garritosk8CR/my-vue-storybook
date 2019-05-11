@@ -12,6 +12,8 @@
     },
     "dependencies": {
         "vue": "^2.5.17",
+        "vuetify": "^1.5.14",
+        "vuetify-loader": "^1.2.2",
         "vuex": "^3.1.1"
     },
     "devDependencies": {
@@ -26,6 +28,7 @@
         "@vue/cli-service": "^3.7.0",
         "babel-loader": "^8.0.4",
         "babel-preset-vue": "^2.0.2",
+        "vue-cli-plugin-vuetify": "^0.5.0",
         "vue-template-compiler": "^2.5.17"
     },
     "eslintConfig": {

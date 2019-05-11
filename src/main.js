@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import {store} from './store/store'
+import Vuetify from 'vuetify/lib'
+import PrimaryTheme from './plugins/vuetify'
 
 Vue.config.productionTip = false
+Vue.use(Vuetify, PrimaryTheme)
 
 new Vue({
   render: h => h(App)
